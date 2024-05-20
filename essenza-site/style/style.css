@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://use.typekit.net/rir2lud.css");
+
+body {
+  box-sizing: border-box;
+  display: block;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+}
+:root {
+  --fonte-principal: "Montserrat", sans-serif;
+  --font-secundaria: "amandine", sans-serif;
+  --verde: #4e523f;
+  --bege: #927b4f;
+  --cinza: #f4f5ef;
+}
+
+
+
+
+
+
+
+
+.btn {
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--fonte-principal);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  background: transparent linear-gradient(90deg, #927b4f 0%, #ddc28f 100%);
+  padding: 16px 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:hover img {
+  rotate: -30deg;
+  fill: var(--verde);
+  clip-path: var(--verde);
+}
+
+.btn:hover a {
+  color: var(--verde);
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+  margin: 6px 0;
+  padding: 0;
+}
+
+.t-bg:hover {
+  background-color: #927b4f;
+
+  transition: 1s ease;
+}
+
+
+
+
+
+

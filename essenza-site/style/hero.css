@@ -1,0 +1,26 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/img/hero_img_1920px.png);
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    background-image: url(/img/hero_img_1024px.png);
+    width: 100vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero {
+    background-image: url(/img/hero_img_375.png);
+    width: 100vw;
+  }
+}

@@ -1,0 +1,135 @@
+footer {
+  width: 100vw;
+  background-color: var(--verde);
+  padding: 32px 0 0 0;
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  /* padding: 32px 0 0 0; */
+}
+
+.footer_munu_content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.menu-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.insta-alig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+
+
+.menu_footer nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu_footer nav ul li .menu-link {
+  font-family: var(--fonte-principal);
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.menu_footer nav ul li .menu-link::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -7px;
+  transition: width 0.3s;
+}
+
+.menu_footer nav ul li .menu-link:hover::after {
+  width: 100%;
+}
+
+.footer_end {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.insta {
+  display: none;
+}
+
+.end {
+  font-family: var(--fonte-principal);
+  color: white;
+}
+
+.footer_pages {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bege);
+}
+
+.politicas {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.politicas_container {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.politica_item a {
+  font-family: var(--fonte-principal);
+  color: white;
+  font-size: 16px;
+}
+
+.m_solid::before {
+  content: "|";
+  padding: 0 8px;
+  color: white;
+}
+
+
+@media (min-width:1024px){
+
+  .insta {
+    display: block;
+  }
+
+  .insta-mobile{
+    display: none;
+  }
+
+  .menu_footer nav ul{
+    flex-direction: row ;
+  }
+
+  .footer_content  {
+    flex-direction: row;
+    margin-bottom: 2rem;
+  }
+
+}
