@@ -5,7 +5,7 @@
   gap: 3rem;
   width: 100vw;
   height: 70vh;;
-  padding: 0 0 0 1rem;
+  padding: 0;
   background-color: var(--cinza);
   z-index: 0;
   position: relative;
