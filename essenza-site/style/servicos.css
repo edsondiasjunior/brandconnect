@@ -4,7 +4,7 @@
   justify-content: center;
   gap: 3rem;
   width: 100vw;
-  height: 70vh;;
+  height: 90vh;;
   padding: 0;
   background-color: var(--cinza);
   z-index: 0;
@@ -125,7 +125,8 @@
   content: url(/img/arrow_left.svg);
   position: absolute;
   top: 60%;
-  left: 5%;
+  left: 5
+  %;
 }
 
 .swiper-button-next {
