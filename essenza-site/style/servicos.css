@@ -124,14 +124,14 @@
 .swiper-button-prev {
   content: url(/img/arrow_left.svg);
   position: absolute;
-  top: 60%;
+  top: 80%;
   left: 5
 }
 
 .swiper-button-next {
   content: url(/img/arrow_right.svg);
   position: absolute;
-  top: 60%;
+  top: 80%;
   right: 75%;
 }
 
