@@ -117,6 +117,8 @@
 
     <section class="servicos">
     
+    <div class="carrossel-alinhamento">
+
     <div class="s-title">
         
         <h2 class="servicos_title">Como cuidamos de você</h2>
@@ -129,24 +131,23 @@
     </div>
     
     <div class="swiper">
-        
         <div class="swiper-wrapper">
             
-            <div class="swiper-slide card">
+            <div class="swiper-slide mask card">
                 <img src="/img/card_1_equilibrio_hormonal.png" alt="" class="card_img">
 
-                <div class="card_content tr fade_in fade_out">
-                    <div class="title-animation">
-                        <h3 class="card_title">
-                            Equilíbrio hormonal
-                        </h3>
-                        <p class="descriptio_card">
-                            O desequilíbrio hormonal feminino é abordado através da terapia de reposição hormonal. No nosso método, optamos pelo uso de implantes subcutâneos, visando prevenir o surgimento de diversas doenças associadas a esse desequilíbrio.
-                        </p>
-                    </div>
+                    <div class="card_content tr fade_in fade_out">
+                        <div class="title-animation">
+                            <h3 class="card_title">
+                                Equilíbrio hormonal
+                            </h3>
+                            <p class="descriptio_card">
+                                O desequilíbrio hormonal feminino é abordado através da terapia de reposição hormonal. No nosso método, optamos pelo uso de implantes subcutâneos, visando prevenir o surgimento de diversas doenças associadas a esse desequilíbrio.
+                            </p>
+                        </div>
                     </div>
             </div>
-            <div class="swiper-slide card">
+            <div class="swiper-slide mask card">
                 <img src="/img/card_2_nutricao.png" alt="" class="card_img">
 
                 <div class="card_content tr">
@@ -160,7 +161,7 @@
                     </div>
                     </div>
             </div>
-            <div class="swiper-slide card">
+            <div class="swiper-slide mask card">
                 <img src="/img/card_3_menopausa.png" alt="" class="card_img">
 
                 <div class="card_content tr">
@@ -174,7 +175,7 @@
                     </div>
                     </div>
             </div>
-            <div class="swiper-slide card">
+            <div class="swiper-slide mask card">
                 <img src="/img/card_4_bioimpedancia.png" alt="" class="card_img">
 
                 <div class="card_content tr">
@@ -188,7 +189,7 @@
                     </div>
                     </div>
             </div>
-            <div class="swiper-slide card">
+            <div class="swiper-slide mask card">
                 <img src="/img/card_5_reeducacao_alimentar.png" alt="" class="card_img">
 
                 <div class="card_content tr">
@@ -202,7 +203,7 @@
                     </div>
                     </div>
             </div>
-            <div class="swiper-slide card">
+            <div class="swiper-slide mask card">
                 <img src="/img/card_6_andropausa.png" alt="" class="card_img">
 
                 <div class="card_content tr">
@@ -216,10 +217,9 @@
                     </div>
                     </div>
             </div>           
-        </div>
-         
-          
+        </div>   
         
+    </div>
     </section>
 
     
@@ -401,8 +401,19 @@
             </ul>
         </nav>
     </div>
+    <div class="brand">
+        <p class="brand-content">
+            Desenvolvido por <span><a href="https://www.brandconnect.com.br/" target="_blank">Brand Connect</a></span>
+        </p>
+    </div>
 </footer>
 
+<svg class="svg-mask">
+    <clipPath id="svgMask">
+        <path  d="M130,0A130,130,0,0,1,260,130V259A130,130,0,0,1,0,259V130A130,130,0,0,1,130,0Z" opacity="1"/>
+    </clipPath>
+  </svg>
+  
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>

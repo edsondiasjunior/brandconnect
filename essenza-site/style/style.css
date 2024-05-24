@@ -2,8 +2,13 @@
 
 @import url("https://use.typekit.net/rir2lud.css");
 
-body {
+
+*{
   box-sizing: border-box;
+}
+
+body {
+  
   display: block;
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
@@ -25,7 +30,7 @@ body {
 
 
 .btn {
-  width: 210px;
+  width: 255px;
   display: flex;
   justify-content: space-between;
   font-family: var(--fonte-principal);

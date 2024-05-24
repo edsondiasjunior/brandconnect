@@ -103,6 +103,10 @@
     align-items: center;
   }
 
+  .sobre-description{
+    max-width: 624px;
+  }
+
   .sobre-desktop{
     display: block;
 
