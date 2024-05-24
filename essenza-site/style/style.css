@@ -44,14 +44,21 @@ body {
   text-decoration: none;
 }
 
-.btn:hover img {
+.btn:hover svg {
   rotate: -30deg;
-  fill: var(--verde);
   clip-path: var(--verde);
+  transition: .5s ease;
+}
+
+.btn:hover svg path{
+  fill: #4e523f;
+  transition: .2s ease;
 }
 
 .btn:hover a {
   color: var(--verde);
+  transition: .2s ease;
+  
 }
 
 .btn a {
