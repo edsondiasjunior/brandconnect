@@ -13,6 +13,7 @@
 
 .slide {
   font-family: var(--font-secundaria);
+  font-weight: 550;
   color: var(--bege);
   font-size: 24px;
   white-space: nowrap;
@@ -67,14 +68,13 @@
 
 .sobre-desktop {
   max-width: 30%;
-
 }
-.sobre-desktop{
+.sobre-desktop {
   display: none;
   max-width: 100%;
 }
 
-.sobre-mobile{
+.sobre-mobile {
   display: block;
   max-width: 100%;
 }
@@ -103,16 +103,15 @@
     align-items: center;
   }
 
-  .sobre-description{
+  .sobre-description {
     max-width: 624px;
   }
 
-  .sobre-desktop{
+  .sobre-desktop {
     display: block;
-
   }
 
-  .sobre-mobile{
+  .sobre-mobile {
     display: none;
   }
   .sobre-titulo-desktop {
