@@ -10,15 +10,19 @@
 .carrossel-alinhamento {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 90%;
   gap: 4rem;
+  margin: auto;
 }
 
 .servicos_title {
   color: var(--verde);
   font-family: var(--font-secundaria);
   font-size: 3.5rem;
+  width: 90%;
+  margin: auto;
   /* padding: 0 1rem 6rem 1rem; */
 }
 
@@ -110,32 +114,36 @@
 
 .swiper {
   display: flex;
-  max-width: 1440px;
+  width: 1440px;
+  margin: auto;
   position: relative;
   z-index: 0;
 }
 
 .swiper-wrapper {
   display: flex;
-  width: 100%;
+  width: 90%;
 }
 
 .s-title {
-  max-width: 1440px;
-  margin-left: 7rem;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  width: 90%;
+  /* margin-left: 7rem; */
   position: relative;
 }
 
 .swiper-button-prev {
   content: url(/img/arrow_left.svg);
-  position: absolute;
+  /* position: absolute; */
   top: 80%;
-  left: 5;
+  left: 5%;
 }
 
 .swiper-button-next {
   content: url(/img/arrow_right.svg);
-  position: absolute;
+  /* position: absolute; */
   top: 80%;
   right: 100%;
 }
@@ -148,7 +156,7 @@
 
   .swiper-button-prev {
     top: 60%;
-    left: 80%;
+    left: 85%;
   }
 
   .swiper-button-next {
