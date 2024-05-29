@@ -2,13 +2,11 @@
 
 @import url("https://use.typekit.net/rir2lud.css");
 
-
-*{
+* {
   box-sizing: border-box;
 }
 
 body {
-  
   display: block;
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
@@ -21,13 +19,6 @@ body {
   --bege: #927b4f;
   --cinza: #f4f5ef;
 }
-
-
-
-
-
-
-
 
 .btn {
   width: 255px;
@@ -47,18 +38,17 @@ body {
 .btn:hover svg {
   rotate: -30deg;
   clip-path: var(--verde);
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
-.btn:hover svg path{
+.btn:hover svg path {
   fill: #4e523f;
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
 
 .btn:hover a {
   color: var(--verde);
-  transition: .2s ease;
-  
+  transition: 0.2s ease;
 }
 
 .btn a {
@@ -73,9 +63,3 @@ body {
 
   transition: 1s ease;
 }
-
-
-
-
-
-
