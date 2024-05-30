@@ -1,5 +1,7 @@
 .servicos {
-  /* display: flex; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   padding: 5rem 0;
   background-color: var(--cinza);
@@ -156,12 +158,12 @@
   }
 
   .swiper-button-prev {
-    /* top: 60%;
-    left: 85%; */
+    top: 60%;
+    left: 85%;
   }
 
   .swiper-button-next {
-    /* top: 60%;
-    right: 10%; */
+    top: 60%;
+    right: 10%;
   }
 }
