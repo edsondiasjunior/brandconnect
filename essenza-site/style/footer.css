@@ -1,5 +1,5 @@
 footer {
-  width: 100vw;
+  width: 100%;
   background-color: var(--verde);
 }
 
@@ -127,27 +127,26 @@ footer {
   }
 }
 
-.brand{
+.brand {
   background-color: #dcc18e;
 }
 
-.brand-content{
+.brand-content {
   font-family: var(--fonte-principal);
   font-size: 0.9rem;
-  color: #4E523F;
+  color: #4e523f;
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   padding: 0.5rem 0;
 }
 
-.brand-content a{
+.brand-content a {
   color: var(--verde);
   font-weight: 700;
   text-decoration: none;
-
 }
 
-.brand-content a:hover{
-  text-decoration:underline;
+.brand-content a:hover {
+  text-decoration: underline;
 }

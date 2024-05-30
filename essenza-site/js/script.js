@@ -10,7 +10,7 @@ var swiper = new Swiper(".swiper", {
 
   breakpoints: {
     300: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
   },
 });
