@@ -193,10 +193,6 @@ input[type="radio"]:checked + .button {
     flex-direction: column;
   }
 
-  .h {
-    /* width: 100%; */
-  }
-
   .time_content {
     /* width: 100%; */
     margin: 0 32px;
