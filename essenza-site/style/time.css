@@ -21,21 +21,18 @@
   flex-direction: column;
   justify-content: top;
   gap: 32px;
-  width: 30%;
+  width: 0%;
   margin-top: 130px;
   width: 90%;
 }
 
 .time_title h2 {
-  font-size: 4rem;
-}
-
-.time_title h2 {
   color: var(--verde);
   font-family: var(--font-secundaria);
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   max-width: 90%;
   padding: 0 1rem;
+  margin-left: 1.5rem;
 }
 
 .time_content {
@@ -161,6 +158,7 @@ input[type="radio"]:checked + .button {
     width: 30%;
     padding: 12rem 0 2rem 0;
   }
+
   .time_aling {
     width: 100vw;
   }
