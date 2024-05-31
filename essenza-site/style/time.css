@@ -3,6 +3,17 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  /* height: 80%; */
+  position: relative;
+  overflow: hidden;
+}
+
+.time::before {
+  content: url(/img/bg_sobre.png);
+  position: absolute;
+  left: -15%;
+  top: -20%;
+  opacity: 70%;
 }
 
 .radio {
@@ -22,7 +33,7 @@
   justify-content: top;
   gap: 32px;
   width: 0%;
-  margin-top: 130px;
+  margin-top: 139px;
   width: 90%;
 }
 
@@ -41,7 +52,7 @@
   justify-content: center;
   gap: 16px;
 
-  /* width: 70%; */
+  width: 70%;
   /* height: 90vh; */
 }
 
@@ -92,21 +103,35 @@ button:hover {
 }
 
 .carlos {
-  background-image: url(/img/carlos-br.png);
+  /* background-image: url(/img/carlos-br.png); */
   background-repeat: no-repeat;
-  background-position: top right;
-  padding: 100px 0 50px 0;
-}
-
-.thamires {
-  background-image: url(/img/thami-bg.png);
   position: relative;
-  background-repeat: no-repeat;
-  /* background-position: right 35% bottom 30%; */
-  /* margin-top: 32px; */
+  background-position: -23% 50%;
   padding: 100px 0 50px 0;
   z-index: 0;
 }
+
+.carlos::after {
+  content: url(/img/carlos-br.png);
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+
+.thamires {
+  position: relative;
+  background-repeat: no-repeat;
+  padding: 100px 0 50px 0;
+  z-index: 0;
+}
+
+.thamires::after {
+  content: url(/img/thami-bg.png);
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+
 .image-thami-conteudo {
   position: absolute;
   top: -30%;
@@ -149,31 +174,23 @@ input[type="radio"]:checked + .button {
   border: 6px solid #927b4f;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1158px) {
   .time {
-    height: 90vh;
+    height: 700px;
   }
 
   .time_title {
-    width: 30%;
+    width: 50%;
     padding: 12rem 0 2rem 0;
   }
 
   .time_aling {
-    width: 100vw;
+    /* width: 100vw; */
   }
   .time_content {
     height: 90vh;
-    width: 70%;
+    width: 50%;
     height: 100vh;
-  }
-
-  .carlos {
-    background-position: bottom right;
-  }
-
-  .thamires {
-    background-position: bottom right;
   }
 
   .description p {
@@ -181,20 +198,27 @@ input[type="radio"]:checked + .button {
   }
 }
 
-@media (max-width: 1024px) {
-  .carlos {
-    background-image: none;
+@media (max-width: 1158px) {
+  .time::before {
+    left: 75%;
+    top: -20%;
+    opacity: 70%;
   }
-  .thamires {
-    background-image: none;
+
+  .thamires::after {
+    content: "";
+  }
+  .carlos::after {
+    content: "";
   }
 
   .time_aling {
     flex-direction: column;
+    width: 90%;
   }
 
   .time_content {
-    /* width: 100%; */
+    width: 100%;
     margin: 0 32px;
   }
 }
