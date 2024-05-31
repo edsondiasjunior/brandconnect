@@ -10,7 +10,7 @@
 }
 
 .time_aling {
-  max-width: 100%;
+  max-width: 1440px;
 
   display: flex;
   justify-content: space-evenly;
@@ -24,6 +24,10 @@
   width: 30%;
   margin-top: 130px;
   width: 90%;
+}
+
+.time_title h2 {
+  font-size: 4rem;
 }
 
 .time_title h2 {
@@ -91,19 +95,20 @@ button:hover {
 }
 
 .carlos {
-  background-image: url(/img/carlos.png);
+  background-image: url(/img/carlos-br.png);
   background-repeat: no-repeat;
   background-position: top right;
   padding: 100px 0 50px 0;
 }
 
 .thamires {
-  background-image: url(/img/thamires.png);
+  background-image: url(/img/thami-bg.png);
   position: relative;
   background-repeat: no-repeat;
-  background-position: top right;
+  /* background-position: right 35% bottom 30%; */
   /* margin-top: 32px; */
   padding: 100px 0 50px 0;
+  z-index: 0;
 }
 .image-thami-conteudo {
   position: absolute;
@@ -191,7 +196,7 @@ input[type="radio"]:checked + .button {
   }
 
   .h {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .time_content {
