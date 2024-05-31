@@ -99,10 +99,6 @@ footer {
   margin: auto;
 }
 
-.politica_item {
-  width: 100%;
-}
-
 .politica_item a {
   font-family: var(--fonte-principal);
   color: white;
@@ -131,6 +127,11 @@ footer {
   .footer_content {
     flex-direction: row;
     margin-bottom: 2rem;
+  }
+
+  .politicas_container {
+    display: flex;
+    flex-flow: wrap;
   }
 }
 

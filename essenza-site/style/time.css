@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  /* height: 80%; */
+  height: 800px;
   position: relative;
   overflow: hidden;
 }
@@ -14,6 +14,7 @@
   left: -15%;
   top: -20%;
   opacity: 70%;
+  z-index: -1;
 }
 
 .radio {
@@ -22,7 +23,7 @@
 
 .time_aling {
   max-width: 1440px;
-
+  height: 800px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -32,9 +33,9 @@
   flex-direction: column;
   justify-content: top;
   gap: 32px;
-  width: 0%;
-  margin-top: 139px;
-  width: 90%;
+  height: 800px;
+  /* margin-top: 139px; */
+  /* width: 90%; */
 }
 
 .time_title h2 {
@@ -51,9 +52,8 @@
   flex-direction: column;
   justify-content: center;
   gap: 16px;
-
   width: 70%;
-  /* height: 90vh; */
+  height: 800px;
 }
 
 .nome {
@@ -103,32 +103,26 @@ button:hover {
 }
 
 .carlos {
-  /* background-image: url(/img/carlos-br.png); */
-  background-repeat: no-repeat;
   position: relative;
-  background-position: -23% 50%;
-  padding: 100px 0 50px 0;
   z-index: 0;
 }
 
 .carlos::after {
   content: url(/img/carlos-br.png);
   position: absolute;
-  top: 10%;
+  top: 0%;
   left: 15%;
 }
 
 .thamires {
   position: relative;
-  background-repeat: no-repeat;
-  padding: 100px 0 50px 0;
   z-index: 0;
 }
 
 .thamires::after {
   content: url(/img/thami-bg.png);
   position: absolute;
-  top: 10%;
+  top: 0%;
   left: 15%;
 }
 
@@ -184,13 +178,10 @@ input[type="radio"]:checked + .button {
     padding: 12rem 0 2rem 0;
   }
 
-  .time_aling {
-    /* width: 100vw; */
-  }
   .time_content {
-    height: 90vh;
+    /* height: 90vh; */
     width: 50%;
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   .description p {
