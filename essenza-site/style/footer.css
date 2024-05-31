@@ -86,7 +86,9 @@ footer {
 
 .politicas {
   display: flex;
+  max-width: 90%;
   align-items: center;
+  justify-content: center;
   padding: 1.5rem 0;
 }
 
@@ -94,6 +96,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
+}
+
+.politica_item {
+  width: 100%;
 }
 
 .politica_item a {
@@ -104,7 +111,7 @@ footer {
 
 .m_solid::before {
   content: "|";
-  padding: 0 8px;
+  padding: 0 5px;
   color: white;
 }
 

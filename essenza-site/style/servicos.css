@@ -126,6 +126,12 @@
   clip-path: url(#svgMask);
 }
 
+.svg-mask {
+  height: 0px;
+  width: 0px;
+  position: absolute;
+}
+
 .card:hover .card_content {
   height: 100%;
   bottom: 0%;
