@@ -205,11 +205,22 @@ input[type="radio"]:checked + .button {
 
   .time_aling {
     flex-direction: column;
+    /* padding: 6rem 0; */
     width: 90%;
   }
 
   .time_content {
     width: 100%;
-    margin: 0 32px;
+    height: fit-content;
+
+    /* margin: 0 32px; */
+  }
+
+  .time_title {
+    height: fit-content;
+  }
+
+  .time_title h2 {
+    padding: 0;
   }
 }
