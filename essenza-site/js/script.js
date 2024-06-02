@@ -11,19 +11,19 @@ var swiper = new Swiper(".swiper", {
   breakpoints: {
     "@0.00": {
       slidesPerView: 1,
-      spaceBetween: 10,
+      // spaceBetween: 10,
     },
     "@0.75": {
       slidesPerView: 2,
-      spaceBetween: 20,
+      // spaceBetween: 20,
     },
-    "@1.00": {
+    "@1.30": {
       slidesPerView: 3,
-      spaceBetween: 40,
+      // spaceBetween: 40,
     },
     "@1.50": {
       slidesPerView: 4,
-      spaceBetween: 50,
+      // spaceBetween: 32,
     },
   },
 });

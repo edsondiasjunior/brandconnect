@@ -40,8 +40,6 @@
 
 .next_prev {
   display: flex;
-
-  /* position: relative; */
   width: 30%;
 }
 
@@ -158,9 +156,19 @@
 }
 
 @media (min-width: 800px) {
+  .s-title {
+    margin: auto;
+    width: 90%;
+    justify-content: none;
+  }
+
   .servicos_title {
     font-size: 3.5rem;
     /* padding: 0 1rem; */
+  }
+
+  .swiper {
+    width: 90%;
   }
 
   .swiper-button-prev {
