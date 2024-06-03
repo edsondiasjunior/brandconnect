@@ -106,7 +106,7 @@ button:hover {
 }
 
 .carlos::after {
-  content: url(/img/carlos-br.webp);
+  content: url(/img/carlos-br.png);
   position: absolute;
   top: 0%;
   left: 15%;
@@ -118,7 +118,7 @@ button:hover {
 }
 
 .thamires::after {
-  content: url(/img/thami-bg.webp);
+  content: url(/img/thami-bg.png);
   position: absolute;
   top: 0%;
   left: 15%;

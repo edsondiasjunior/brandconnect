@@ -153,6 +153,7 @@
 .descriptio_card {
   font-family: var(--fonte-principal);
   font-size: 12px;
+  line-height: 18px;
   color: white;
   text-align: center;
   /* margin: auto; */
