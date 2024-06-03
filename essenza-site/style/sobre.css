@@ -44,7 +44,7 @@
 }
 
 .sobre::before {
-  content: url(/img/bg_sobre.png);
+  content: url(/img/bg_sobre.webp);
   position: absolute;
   left: -10%;
   z-index: -1;

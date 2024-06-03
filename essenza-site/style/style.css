@@ -67,3 +67,51 @@ body {
 
   transition: 1s ease;
 }
+
+/* COOKIES */
+.cookies-msg {
+  width: 80%;
+  background-color: var(--cinza);
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 6px;
+  display: none;
+}
+
+.cookies-msg.mostrar {
+  display: block;
+}
+
+.cookies-msg .cookies-txt {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  padding: 32px;
+}
+
+.cookies-txt p {
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cookies-msg .cookies-btn {
+  margin-left: 32px;
+}
+
+.cookies-msg .cookies-btn button {
+  background-color: var(--verde);
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 10px 40px;
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cookies-msg .cookies-btn button:hover {
+  transform: scale(0.9);
+}

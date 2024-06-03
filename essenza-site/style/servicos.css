@@ -178,6 +178,14 @@
 }
 
 @media (min-width: 1140px) {
+  .servicos {
+    padding: 120px 0;
+  }
+
+  .carrossel-alinhamento {
+    gap: 3rem;
+  }
+
   .swiper-button-prev {
     top: 60%;
     left: 85%;
