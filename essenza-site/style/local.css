@@ -51,6 +51,8 @@
   font-size: 16px;
   line-height: 24px;
   width: 40%;
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 1024px) {

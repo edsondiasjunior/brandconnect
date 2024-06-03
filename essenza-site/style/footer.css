@@ -74,6 +74,7 @@ footer {
 .end {
   font-family: var(--fonte-principal);
   color: white;
+  text-decoration: none;
 }
 
 .footer_pages {
