@@ -9,7 +9,7 @@
 }
 
 .time::before {
-  content: url(/img/bg_sobre.webp);
+  content: url(/img/grafismo.webp);
   position: absolute;
   left: -15%;
   top: -20%;
@@ -106,7 +106,7 @@ button:hover {
 }
 
 .carlos::after {
-  content: url(/img/carlos-br.png);
+  content: url(/img/carlos-bg.webp);
   position: absolute;
   top: 0%;
   left: 15%;
@@ -118,7 +118,7 @@ button:hover {
 }
 
 .thamires::after {
-  content: url(/img/thami-bg.png);
+  content: url(/img/thamiris-bg.webp);
   position: absolute;
   top: 0%;
   left: 15%;

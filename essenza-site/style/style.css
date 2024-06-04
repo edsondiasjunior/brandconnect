@@ -69,11 +69,12 @@ body {
 }
 
 /* COOKIES */
+
 .cookies-msg {
   width: 80%;
   background-color: var(--cinza);
   position: fixed;
-  bottom: 5%;
+  bottom: 0%;
   left: 50%;
   transform: translate(-50%);
   border-radius: 6px;
@@ -88,17 +89,22 @@ body {
   display: flex;
   align-items: center;
   text-align: justify;
-  padding: 32px;
+  padding: 40px;
+}
+
+.cookies-txt h2 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
 }
 
 .cookies-txt p {
   font-family: var(--fonte-principal);
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .cookies-msg .cookies-btn {
-  margin-left: 32px;
+  margin-left: 40px;
 }
 
 .cookies-msg .cookies-btn button {
