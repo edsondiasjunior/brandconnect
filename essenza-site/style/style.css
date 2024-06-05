@@ -121,3 +121,20 @@ body {
 .cookies-msg .cookies-btn button:hover {
   transform: scale(0.9);
 }
+
+@media (max-width: 600px) {
+  .cookies-msg .cookies-txt {
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+
+  .cookies-msg .cookies-btn {
+    margin-left: 0;
+  }
+
+  .cookies-msg {
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+}
