@@ -106,7 +106,7 @@ button:hover {
 }
 
 .carlos::after {
-  content: url(/img/carlos-background.png);
+  content: url(/img/carlos-background.webp);
   position: absolute;
   top: 0%;
   left: 15%;
@@ -118,7 +118,7 @@ button:hover {
 }
 
 .thamires::after {
-  content: url(/img/thamiris-background.png);
+  content: url(/img/thamiris-background.webp);
   position: absolute;
   top: 0%;
   left: 15%;
